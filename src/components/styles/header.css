@@ -1,0 +1,13 @@
+.header-wrapper {
+}
+.header-wrapper h1{
+    color: rgb(174, 99, 187);
+    margin: 0;
+    margin-top: 21.440px;    
+}
+.header-wrapper h3{
+    color: rgb(174, 99, 187);
+    margin: 0;
+    margin-top: 5px;
+    font-size: 15px;
+}

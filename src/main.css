@@ -1,0 +1,26 @@
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #201f1f;
+
+}
+
+.main-wrapper .secondary-wrapper{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.main-wrapper .tasks {
+    width: 75%;
+    
+}
+
+
+.main-wrapper .secondary-wrapper .input-label-wrapper {
+    width: 75%;
+}

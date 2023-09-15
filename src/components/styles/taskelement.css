@@ -1,0 +1,52 @@
+
+
+
+.list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(44, 42, 42);
+
+}
+.list-item:hover {
+    background-color: rgb(49, 48, 48);
+}
+.list-item:hover .text {
+    background-color: rgb(49, 48, 48);
+}
+
+.list-item .text{
+    background-color: rgb(44, 42, 42);
+    color: rgb(222, 216, 216);
+    width: 100%;
+    word-break: break-all;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+.list-item button{
+    font-size: 8px;
+    color: #201f1f;
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(142, 141, 141);
+    border-radius: 100px;
+    transition: color 0.30s;
+    transition: width 0.30s;
+    
+}
+.list-item button:hover{ 
+    color: white;
+    width: 30px;
+}
+.list-item button:active{ 
+    color: #201f1f;
+    background-color: white;
+    width: 30px;
+}
+
