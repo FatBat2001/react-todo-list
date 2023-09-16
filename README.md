@@ -1,7 +1,7 @@
 Simple but beautiful todo-list web application developed using 
 Reactjs and responsive CSS 
 
-For installation : 
+For installation : <br>
 -install node js (skip if you have it already installed) 
 -download the project to a directory 
 -open the terminal and navigate to the directory 
