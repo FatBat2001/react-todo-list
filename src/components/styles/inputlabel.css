@@ -10,7 +10,8 @@
 .input-wrapper button{
     width: 20%;
     height: 100%;
-    color: rgb(174, 99, 187);
+    color: rgb(222, 216, 216);
+    background-color: rgb(174, 99, 187);
     font-weight: bold;
     border: none;
     border: 2px solid rgb(142, 141, 141);
@@ -21,8 +22,8 @@
     background-color: rgb(174, 99, 187);
 }
 .input-wrapper button:active{
-    color: rgb(222, 216, 216);
-    background-color: rgb(174, 99, 187);
+    color:  rgb(174, 99, 187);
+    background-color: rgb(222, 216, 216);
 
 }
 .input-wrapper input{
@@ -41,5 +42,6 @@
 .input-wrapper input:focus{
     /* Still not working i don't know why :( */
     background-color: rgb(49, 48, 48);
+    color: white;
 }
 
