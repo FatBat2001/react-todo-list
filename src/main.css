@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     background-color: #201f1f;
-
+    width: 100vh;
+    height: 50vh;
 }
 
 .main-wrapper .secondary-wrapper{

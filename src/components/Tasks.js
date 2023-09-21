@@ -18,8 +18,8 @@ const Tasks = ({ complete, inComplete, checkTask , deleteTask}) => {
         }
         
       <h3 style={{color:'rgb(174, 99, 187)'}} >Completed</h3>
-        {
-            inComplete.map((taskContent, index) =>(
+        {  
+             inComplete.map((taskContent, index) =>(
                 <TaskElement 
                   key={index} 
                   index={index}

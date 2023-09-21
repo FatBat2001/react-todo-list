@@ -6,9 +6,14 @@ import Tasks from "./components/Tasks";
 import Blank from "./components/Blank";
 
 const Main = () => {
+    const checkPending = localStorage.getItem('pending'); 
+    const checkCompleted = localStorage.getItem('completed');
+    if (checkPending === null) localStorage.setItem('pending', []); 
+    if (checkCompleted === null) localStorage.setItem('completed', []); 
     
-    const [pending, setPending] = useState([]);
-    const [completed, setCompleted] = useState([]);
+    const [pending, setPending] = useState( checkPending ? checkPending.split(',') : []);
+    const [completed, setCompleted] = useState( checkCompleted ? checkCompleted.split(','): []);
+  
     const addTask = (taskText) => {      
         setPending(taskText !== '' ? [...pending, taskText] : [...pending]);
     }    
@@ -32,7 +37,8 @@ const Main = () => {
       flag ? setCompleted([...temp]): setPending([...temp]);
     }
     useEffect(() => {
-      
+        localStorage.setItem('pending', pending);
+        localStorage.setItem('completed', completed);
     }, [pending, completed])
   return (
     <div className="main-wrapper">
