@@ -1,12 +1,39 @@
 Simple but beautiful todo-list web application developed using 
-Reactjs and responsive CSS <br>
+Reactjs  <br>
 
-For installation : <br>
--install node js (skip if you have it already installed) <br>
--download the project to a directory <br>
--open the terminal and navigate to the directory <br> 
--run the command npm install to download the required packages <br>
--run the command npm run start and enjoy :) <br>
+## Installation
+
+Before you begin, make sure you have Node.js and npm installed on your machine.
+
+1. Clone the project to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+``` 
+2. install the project dependencies using npm 
+   ```bash
+   npm install 
+``` 
+
+3. build the project 
+   ```bash
+   npm run build  
+``` 
+4. After running the build command, you'll find a build folder generated. This folder will be used to load the extension in Chrome.
+
+5. Open Google Chrome (or any other Chromium-based browser).
+
+6. Go to Settings > Extensions.
+
+7. Enable developer mode.
+
+8. Click on "Load unpacked."
+
+9. A file explorer window will appear. Choose the build folder mentioned earlier.
+
+The extension should now be loaded and ready to use in your browser.
+
+
 
 
 
