@@ -31,10 +31,3 @@ Before you begin, make sure you have Node.js and npm installed on your machine.
 9. A file explorer window will appear. Choose the build folder mentioned earlier.
 
 The extension should now be loaded and ready to use in your browser.
-
-
-
-
-
-https://github.com/FatBat2001/react-todo-list/assets/92587006/d75969b2-23e5-412a-a367-9ac694295cb5
-
