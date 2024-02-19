@@ -9,16 +9,15 @@ Before you begin, make sure you have Node.js and npm installed on your machine.
    ```bash
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
-``` 
+
 2. install the project dependencies using npm 
    ```bash
    npm install 
-``` 
 
 3. build the project 
    ```bash
    npm run build  
-``` 
+
 4. After running the build command, you'll find a build folder generated. This folder will be used to load the extension in Chrome.
 
 5. Open Google Chrome (or any other Chromium-based browser).
